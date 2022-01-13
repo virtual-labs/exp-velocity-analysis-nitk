@@ -1,1 +1,1 @@
-## Position analysis of Grashof four bar mechanism
+# Velocity analysis of four bar mechanism
