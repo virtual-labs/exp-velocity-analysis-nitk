@@ -20,6 +20,7 @@ html {
   font-size: 62.5%;
   font-family: "Nunito", sans-serif;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -37,15 +38,14 @@ h3 {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
   left: -5rem;
 }
 
 ::-moz-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
   left: -5rem;
 }
-
 
 /* select menu */
 .ui-selectmenu-button {
@@ -62,7 +62,6 @@ h3 {
   padding: 0;
   vertical-align: middle;
   border: 0 none;
-  
 }
 .ui-spinner-input {
   width: inherit;
